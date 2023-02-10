@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    font-family: poppins;
+
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+.photo {
+    background-color: tomato;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: blue;
+    border-width: 2px;
+    height: 1000px;
+    width: 30%;
+}
+.elements {
+    background-color: lightblue;
+    height: 1000px;
+    width: 70%;
+    padding-left: 10px;
+}
