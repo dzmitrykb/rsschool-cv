@@ -18,9 +18,12 @@ body {
 }
 .content {
     display: flex;
+    justify-items: end;
+    
 }
 nav {
-    /* position: fixed; */
+    position: fixed;
+    width: 100%;
 }
 .nav-list {
     display: flex;
@@ -31,9 +34,16 @@ nav {
     margin: 0px;
     list-style: none;
 }
+.nav-item:hover {
+    border-left: 1px solid rgb(97, 97, 97);
+    border-right: 1px solid rgb(97, 97, 97);
+    background-color: rgb(173, 173, 173);
+
+}
 .nav-item {
-    margin-right: 20px;
-    padding-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 20px 10px 20px;
 }
 h1 {
     text-align: center;
@@ -46,13 +56,16 @@ h1 {
     background-color: tomato;
     height: 95vh;
     width: 25%;
+    position: fixed;
+    margin-top: 5vh;
 }
 .elements {
     background-color: rgba(255, 99, 71, 0.205);
-    height: 95vh;
+    height: auto;
     width: 75%;
     padding-left: 25px;
     display: block;
+    margin-left: 25%;
 }
 .block {
     background-color: white;
@@ -99,12 +112,16 @@ hr {
     height: 20px;
     margin-right: 7px;
 }
-a {
+.a, .nav-link {
+    text-decoration: none;
+    color: white;
+}
+#github {
     position: relative;
     text-decoration: none;
     color: white;
 }
-a:after {
+#github:after {
     content: '';
     display: block;
     position: absolute;
@@ -116,14 +133,14 @@ a:after {
     right: 0;
     margin: 0 auto;
 }
-a:hover {
+/* a:hover { */
     /* color: rgb(199, 52, 55); */
     /* text-shadow: 0 0 16px rgb(206, 38, 242); */
-}
-a:hover:after {
+/* } */
+#github:hover:after {
     width: 100%;
 }
-.myself {
+#myself {
     border-radius: 12px;
     border-style: solid;
     border-width: 2px;
@@ -132,10 +149,10 @@ a:hover:after {
     margin-top: 4%;
     margin-right: 25px;
     padding-left: 25px;
-    padding-top: 10px;
+    padding-top: 0px;
 
 }
-.education {
+#education {
     border-radius: 12px;
     border-style: solid;
     border-width: 2px;
@@ -144,10 +161,10 @@ a:hover:after {
     margin-top: 25px;
     margin-right: 25px;
     padding-left: 25px;
-    padding-top: 10px;
+    padding-top: 0px;
 
 }
-.skills {
+#skills {
     border-radius: 12px;
     border-style: solid;
     border-width: 2px;
@@ -156,7 +173,7 @@ a:hover:after {
     margin-top: 25px;
     margin-right: 25px;
     padding-left: 25px;
-    padding-top: 10px;
+    padding-top: 0px;
 
 }
 .hr2 {
@@ -166,4 +183,38 @@ a:hover:after {
     border: 0px;
     margin: 25px 10% 0 10%;
     padding: 0px;
+}
+.li-item {
+    list-style: none;
+    /* margin-left: 0; */
+
+}
+.skills-list {
+    padding-left: 0;
+    margin-left: 0;
+}
+tr:hover {
+ background-color: rgba(128, 128, 128, 0.24);   
+}
+th {
+    text-align: left;
+}
+td {
+    text-align: left;
+}  
+td, th {
+    padding-right: 30px;
+}
+table {
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+}
+.quote {
+    display: inline-block;
+    border-left: 2px solid tomato;
+    background-color: #F4D9D4;
+    padding-left: 5px;
+    padding-right: 5px;
 }
