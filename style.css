@@ -1,10 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     display: block;
     justify-content: space-between;
     font-family: poppins;
     padding: 0px;
     margin: 0px;
-
 }
 .my-photo {
     width: 250px;
