@@ -1,0 +1,222 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    display: block;
+    justify-content: space-between;
+    font-family: poppins;
+    padding: 0px;
+    margin: 0px;
+}
+.my-photo {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    padding: auto;
+    margin-top: 25%;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.content {
+    display: flex;
+    justify-items: end;
+    
+}
+nav {
+    position: fixed;
+    width: 100%;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    background-color: grey;
+    margin: 0px;
+    list-style: none;
+}
+.nav-item:hover {
+    border-left: 1px solid rgb(97, 97, 97);
+    border-right: 1px solid rgb(97, 97, 97);
+    background-color: rgb(173, 173, 173);
+
+}
+.nav-item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 20px 10px 20px;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 0px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.photo {
+    background-color: tomato;
+    height: 95vh;
+    width: 25%;
+    position: fixed;
+    margin-top: 5vh;
+}
+.elements {
+    background-color: rgba(255, 99, 71, 0.205);
+    height: auto;
+    width: 75%;
+    padding-left: 25px;
+    display: block;
+    margin-left: 25%;
+}
+.block {
+    background-color: white;
+    display: block;
+    width: 260px;
+    height: 320px;
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+}
+.dota {
+    font-size: 14px;
+    /* color: grey; */
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+hr {
+    width: 350px;
+    background-color: white;
+    height: 1px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.contact-box {
+    display: block;
+    width: 350px;
+    height: 320px;
+    margin: auto;
+    margin-top: 25px;
+    padding: auto;
+    border-radius: 10px;
+    color: white;
+}
+.contacts   {
+    margin-bottom: 5px;
+    padding: 0px;
+    font-size: 20px;
+}
+.mail-icon {
+    width: 20px ;
+    height: 20px;
+    margin-right: 7px;
+}
+.a, .nav-link {
+    text-decoration: none;
+    color: white;
+}
+#github {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+#github:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0%;
+    background-color: white;
+    transition: width 0.3s;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+/* a:hover { */
+    /* color: rgb(199, 52, 55); */
+    /* text-shadow: 0 0 16px rgb(206, 38, 242); */
+/* } */
+#github:hover:after {
+    width: 100%;
+}
+#myself {
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: tomato;
+    margin: auto;
+    margin-top: 4%;
+    margin-right: 25px;
+    padding-left: 25px;
+    padding-top: 0px;
+
+}
+#education {
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: tomato;
+    margin: auto;
+    margin-top: 25px;
+    margin-right: 25px;
+    padding-left: 25px;
+    padding-top: 0px;
+
+}
+#skills {
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: tomato;
+    margin: auto;
+    margin-top: 25px;
+    margin-right: 25px;
+    padding-left: 25px;
+    padding-top: 0px;
+
+}
+.hr2 {
+    width: 80%;
+    background-color: white;
+    height: 4px;
+    border: 0px;
+    margin: 25px 10% 0 10%;
+    padding: 0px;
+}
+.li-item {
+    list-style: none;
+    /* margin-left: 0; */
+
+}
+.skills-list {
+    padding-left: 0;
+    margin-left: 0;
+}
+tr:hover {
+ background-color: rgba(128, 128, 128, 0.24);   
+}
+th {
+    text-align: left;
+}
+td {
+    text-align: left;
+}  
+td, th {
+    padding-right: 30px;
+}
+table {
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+}
+.quote {
+    display: inline-block;
+    border-left: 2px solid tomato;
+    background-color: #F4D9D4;
+    padding-left: 5px;
+    padding-right: 5px;
+}
