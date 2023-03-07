@@ -9,7 +9,7 @@ body {
     position: relative;
 }
 .swipe {
-    /* display: none; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    display: none;
 }
 .storyback-mobile {
     display: none;
@@ -259,7 +259,9 @@ h2 {
 .destination-name {
     position: absolute;
     top: 718px;
-    right: 677px;
+    right: 737px;
+    left: 15px;
+    bottom: 40px;
     text-transform: uppercase;
     font-family: 'Red Hat Text';
     font-style: normal;
@@ -267,6 +269,8 @@ h2 {
     font-size: 32px;
     line-height: 42px;
     color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
 }
 .ellips {
     width: 20px;
@@ -275,6 +279,9 @@ h2 {
     background: rgb(242, 120, 92);
     margin-right: 10px;
     margin-top: 24px;
+}
+.off {
+    opacity: 0.5;
 }
 .dottes {
     display: flex;
@@ -615,7 +622,7 @@ footer {
 
     }
     .swipe {
-        display: visible;
+        display: block;
         position: absolute;
         top: 122.5px;
         right: 26.27px;
@@ -660,6 +667,10 @@ footer {
     }
     .storyimg-mobile {
         display: block;
+        filter: drop-shadow(0px 4px 4px #0D606F);
+        border-radius: 16px;
+        width: 155px;
+        height: 130px;
     }
     .box {
         position: relative;
@@ -673,16 +684,19 @@ footer {
         z-index: 1;
         margin: 0px;
     }
-    .stories {э
-        margin-left: 20px;
+    .stories {
+        margin-left: 15px;
+        margin-right: 15px;
         width: 390px;
-        margin-top: -200px;
+        margin-top: -697px;
         /* position: absolute;
         top: 0px;
         left: 10px;
         right: 10px; */
         z-index: 10;
         padding-top: 0px;
+        position: relative;
+        display: block;
     }
     h3 {
         font-family: 'Aleo';
@@ -691,6 +705,8 @@ footer {
         font-size: 11px;
         line-height: 13px;
         color: #0D606F;
+        margin: 10px 0px 0px 10px;
+
 
     }
     .storytext {
@@ -698,7 +714,8 @@ footer {
 
     }
     .storytext-mobile {
-        margin-left: 0px;
+        margin: 0px;
+        margin-left: 10px;
         display: block;
         font-family: 'Aleo';
         font-style: normal;
@@ -708,6 +725,44 @@ footer {
         color: #0D606F;
         width: 195px;
     }
+    .story {
+        margin-top: 15px;
+    }
+    .see-more {
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 92px;
+        height: 30px;
+        background: #0D606F;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 15px;
+        color: #FFFFFF;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+
+footer {
+    margin: 0px;
+    margin-top: 15px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.footerp {
+    display: none;
+}
+.footerimg {
+    margin: 0px;
+}
 
 
 }
